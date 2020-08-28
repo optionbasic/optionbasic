@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    background: whitesmoke;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    height: 10%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.logo {
+    width: 5%;
+    height: auto;
+    padding: 1%, 1%;
+    border-radius: 50%;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 1%;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 30px;
+    display: inline-block;
+    line-height: 100px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: Poiret One, cursive;
+    padding: 5px;
+    transition: .3s;
+}
+
+.navbar ul li a.active, .navbar ul li a:hover {
+    background: rgb(55, 55, 129);
+    border-radius: 10%;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+h1 {
+    padding: 10px;
+}
+
+.articlediv {
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+}
+
+.tradingview-widget-container {
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+}
+
+.footer-links {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+}
